@@ -1,0 +1,33 @@
+.headquarters {
+  &__title {
+    color: #83888f;
+    font-size: 24px;
+    font-family: Fraunces;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 170px;
+    margin-bottom: 72px;
+  }
+  &__boxes {
+    display: flex;
+    gap: 95px;
+  }
+  &__boxtitle {
+    color: #333d4b;
+    font-size: 32px;
+    font-family: Fraunces;
+    font-weight: 900;
+    line-height: 36px;
+    margin-top: 46px;
+  }
+  &__text {
+    color: #333d4b;
+    font-size: 16px;
+    font-family: Barlow;
+    line-height: 26px;
+    margin-top: 35px;
+  }
+  &__box {
+    width: 285px;
+  }
+}

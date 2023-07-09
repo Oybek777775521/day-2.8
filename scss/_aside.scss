@@ -1,0 +1,22 @@
+.aside {
+  margin-left: 85px;
+  width: 255px;
+  &__li {
+    list-style: none;
+  }
+  &__anchor {
+    color: #333d4b70;
+    font-size: 24px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  &__anchor:hover {
+    color: #333d4b90;
+  }
+  &__anchor:active {
+    color: #333d4b;
+  }
+}

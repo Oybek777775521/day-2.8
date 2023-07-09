@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 200px;
+  background: #2c343e;
+  padding: 47px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__messengers {
+    display: flex;
+    gap: 35px;
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}

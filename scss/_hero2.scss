@@ -1,0 +1,23 @@
+.hero2 {
+    margin-top: 45px;
+    height: 450px;
+    background-image: url(../images/bitmap2.jpg);
+  
+    &__title {
+      color: #fefcf7;
+      font-size: 40px;
+      font-family: Fraunces;
+      font-weight: 900;
+      line-height: 48px;
+      padding-top: 137px;
+      padding-left: 85px;
+    }
+    &__text {
+      width: 445px;
+      color: #fefcf7;
+      font-size: 16px;
+      font-family: Barlow;
+      line-height: 26px;
+      padding-left: 85px;
+    }
+  }

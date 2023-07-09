@@ -1,0 +1,28 @@
+.manual2 {
+    height: 653px;
+    margin-top: 160px;
+    background: #2c343e;
+    padding-top: 113px;
+    padding-left: 85px;
+  
+    &__boxtitle {
+      width: 255px;
+      color: #fefcf7;
+      font-size: 32px;
+      font-family: Fraunces;
+      font-weight: 900;
+      line-height: 36px;
+      margin-top: 85px;
+    }
+    &__boxtext {
+      width: 285px;
+      color: #fefcf7;
+      font-size: 16px;
+      font-family: Barlow;
+      line-height: 26px;
+      margin-top: 40px;
+    }
+    &__img {
+      margin-left: 13px;
+    }
+  }

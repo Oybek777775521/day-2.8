@@ -1,0 +1,19 @@
+.button {
+  background: #0e8784;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+
+  text-align: center;
+
+  color: #fefcf7;
+  border: none;
+  padding: 15px 30px;
+}
+.button:hover {
+  background: #66d2cf;
+}

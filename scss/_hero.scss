@@ -1,0 +1,77 @@
+.hero {
+  margin-top: 45px;
+  height: 600px;
+  background: url(../images/bitmap.png);
+
+  &__content {
+    width: 495px;
+    padding: 60px 85px;
+  }
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+
+    color: #fefcf7;
+  }
+  &__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .hero {
+    &__title {
+      font-size: 48px;
+      line-height: 48px;
+      max-width: 380px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+      width: 410px;
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  .hero__content {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .hero {
+    background-color: black;
+    background-image: url(../images/hero-bg-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+    border-radius: 10px;
+    padding: 24px 100px;
+    height: 500px;
+    width: 450px;
+
+    &__title {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+    }
+  }
+}
